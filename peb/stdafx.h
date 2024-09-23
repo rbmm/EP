@@ -18,9 +18,6 @@
 #define _CRTIMP DECLSPEC_IMPORT
 #define _CRTIMP_ALT DECLSPEC_IMPORT
 
-#define _NT_BEGIN namespace NT {
-#define _NT_END }
-
 #pragma warning(disable : 4073 4074 4075 4097 4514 4005 4200 4201 4238 4307 4324 4480 4530 4706 5040)
 
 #include <stdlib.h>
